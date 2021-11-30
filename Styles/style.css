@@ -181,15 +181,16 @@ body{
   .about-right{
         margin-left: 25px;
   }
- /*...........
-   Media Query
-   ...........*/
+ /*......................
+   Media Query For Mobile
+   ......................*/
   @media only screen and (max-width:690px) {
+    /* Navigation  */
       .navigation{
         display: none;
       }
+    /* Top Section  */
       .introduction{
-          display: flex;
           flex-direction: column;
           margin: 0;
       }
@@ -204,5 +205,101 @@ body{
         width: 350px;
         margin: 45px;
       }
-
+    /* Players Section */
+      .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+      .player{
+        margin: 10px;
+      }
+    /* Highlights Section  */
+      .highlights{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        margin: 30px;
+      } 
+      .highlight-info span{
+        font-size: 30px;
+      }
+    /* Additional Contact  */
+      .contact-info h1{
+        font-size: 30px;
+      }
+      .input-contact{
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      border: 6px solid #e02c6ec4;
+      border-radius: 5px;
+     }
+     .contact-data{
+     width: 370px;
+     height: 15px;
+     padding: 5px;
+     margin: 5px 0;
+    }
+  }
+  @media only screen and (min-width: 691px) and (max-width: 1024px) {
+    /* Navigation  */
+      .navigation{
+        display: none;
+      }
+    /* Top Section  */
+      .introduction{
+          flex-direction: column;
+          margin: 0;
+      }
+      .title{
+          margin: 10px 5px;
+      }
+      .title span{
+          font-size: 48px;
+      }
+      .banner{
+        height: 360px;
+        width: 400px;
+        margin: 45px;
+      }
+    /* Players Section */
+      .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+      .player{
+        margin: 10px;
+      }
+    /* Highlights Section  */
+      .highlights-section{
+      display: flex;
+      justify-content: center;
+      }
+      .highlights{
+        margin: 30px;
+      } 
+      .highlight-info span{
+        font-size: 30px;
+      }
+    /* Additional Contact  */
+      .contact-info h1{
+        font-size: 30px;
+      }
+      .input-contact{
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      border: 6px solid #e02c6ec4;
+      border-radius: 5px;
+     }
+     .contact-data{
+     width: 500px;
+     height: 15px;
+     padding: 5px;
+     margin: 5px 0;
+    }
   }
