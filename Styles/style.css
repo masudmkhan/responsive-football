@@ -19,51 +19,51 @@ body{
       margin: 0 auto;
       padding-top: 20px;
   }
-.nav a{
+ .nav a{
     text-decoration: none;
     color: white;
     padding: 15px;
-}
+ }
 
 /*.................... 
   Introduction Section 
   ....................*/
-.top-section{
+ .top-section{
     color: white;
     background-color: #2D25A0;
     padding-top: 50px;
-}
-.introduction{
+ }
+ .introduction{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.title{
+ }
+ .title{
     margin: 90px 20px 170px 120px;
-}
-.title span{
+ }
+ .title span{
     font-size: 64px;
     font-weight: 700;
-}
-.button{
+ }
+ .button{
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
     background-color: #E02C6D;
-}
-.banner{
+ }
+ .banner{
     margin: 40px 120px 85px 70px;
     height: 440px;
     width: 550px;
-}
-.banner:hover .banner-image{
+ }
+ .banner:hover .banner-image{
     transform: scale(1.2);
     transition: transform 1.5s ease-in-out;
 }
-.banner-image{
+ .banner-image{
     width: 100%;
-}
+ }
 /*............... 
   Players Section
   ...............*/
@@ -136,9 +136,9 @@ body{
       width: 100px;
       margin: 20px auto;
   }
-  /*...... 
-    Logo 
-    ......*/
+ /*...... 
+   Logo 
+   ......*/
   .logo-section{
       display: flex;
       justify-content: center;
@@ -159,25 +159,50 @@ body{
       display: flex;
       justify-content: center;
   }
-  /*...................
-    Additional About Us
-    ...................*/
-    .about-details{
+ /*...................
+   Additional About Us
+   ...................*/
+  .about-details{
         display: flex;
         justify-content: center;
         color: rgba(238, 238, 238, 0.952);
         background-color: black;
         padding-bottom: 15px;
-    }
-    .details{
+  }
+  .details{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 30px;
         width: 800px;
-    }
-    .about-left{
+  }
+  .about-left{
         margin-right: 25px;
-    }
-    .about-right{
+  }
+  .about-right{
         margin-left: 25px;
-    }
+  }
+ /*...........
+   Media Query
+   ...........*/
+  @media only screen and (max-width:690px) {
+      .navigation{
+        display: none;
+      }
+      .introduction{
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+      }
+      .title{
+          margin: 10px 5px;
+      }
+      .title span{
+          font-size: 36px;
+      }
+      .banner{
+        height: 300px;
+        width: 350px;
+        margin: 45px;
+      }
+
+  }
