@@ -228,6 +228,9 @@ body{
       .highlight-info span{
         font-size: 30px;
       }
+      .watch-highlight img{
+        width: 80%;
+      }
     /* Additional Contact  */
       .contact-info h1{
         font-size: 30px;
