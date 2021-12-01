@@ -229,7 +229,8 @@ body{
         font-size: 30px;
       }
       .watch-highlight{
-        width: 1000px;
+        width: 500px;
+        margin: 0 auto;
       }
       .watch-highlight img{
         width: 100%;
