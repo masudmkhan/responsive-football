@@ -229,8 +229,7 @@ body{
         font-size: 30px;
       }
       .watch-highlight{
-        width: 90%;
-        margin: 10px;
+        margin-left: 10px;
       }
     /* Additional Contact  */
       .contact-info h1{
@@ -250,6 +249,9 @@ body{
      margin: 5px 0;
     }
   }
+  /*......................
+   Media Query For Tablet
+   ......................*/
   @media only screen and (min-width: 691px) and (max-width: 1024px) {
     /* Navigation  */
       .navigation{
