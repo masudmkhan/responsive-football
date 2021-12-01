@@ -222,8 +222,15 @@ body{
         grid-row-gap: 40px;
         margin: 30px;
       } 
+      .highlight-info{
+        margin-left: 50px;
+      }
       .highlight-info span{
         font-size: 30px;
+      }
+      .watch-highlight{
+        width: 90%;
+        margin: 10px;
       }
     /* Additional Contact  */
       .contact-info h1{
@@ -237,7 +244,7 @@ body{
       border-radius: 5px;
      }
      .contact-data{
-     width: 370px;
+     width: 250px;
      height: 15px;
      padding: 5px;
      margin: 5px 0;
